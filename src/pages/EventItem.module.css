@@ -1,0 +1,60 @@
+.eventItem {
+  position: relative;
+  width: 50%;
+  height: 400px;
+  background-color: rgb(226, 228, 96);
+  opacity: 85%;
+  left: 2%;
+  border-radius: 13px;
+  margin-bottom: 25%;
+  margin-top: 10%;
+  transition: transform 0.3s;
+  box-shadow: 10px 10px 10px 10px rgba(7, 0, 70, 0.2);
+
+  /* opacity: 0%; */
+}
+.image {
+  width: 55%;
+  height: 300px;
+  float: left;
+  position: relative;
+  left: 1%;
+  bottom: 5%;
+  box-shadow: 10px 5px 15px rgba(7, 0, 70, 0.2);
+}
+.text {
+  width: 95%;
+  position: relative;
+  left: 3%;
+  top: 7%;
+  font-size: 18px;
+  font-family: cursive;
+}
+
+.chooseBtn {
+  position: relative;
+  left: 33%;
+  bottom: 17%;
+  width: 10%;
+  height: 30px;
+  background-color: rgb(167, 89, 0);
+  color: rgb(1, 1, 61);
+  font-family: cursive;
+  font-weight: 700;
+  font-size: 17px;
+  border-radius: 5px;
+  transition: trnsform 0.2s;
+}
+.chooseBtn:hover {
+  background-color: red;
+  transform: scale(1.1);
+}
+
+.title {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 22px;
+  position: relative;
+  left: 48%;
+  top: 2%;
+}

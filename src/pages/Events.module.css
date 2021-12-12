@@ -1,0 +1,77 @@
+.events {
+  width: 100%;
+  height: auto;
+  background-image: url("../images/facilities.jpg"), url("../images/party.jpg"),
+    url("../images/sea-water.jpg"),
+    linear-gradient(to right, rgb(169, 238, 250) 50%, rgb(4, 10, 71) 100%);
+  background-position: top left, center right, bottom left;
+  background-repeat: no-repeat;
+  background-size: 1000px, 1300px, 1200px, 2000px;
+  color: rgb(1, 1, 61);
+  align-items: center;
+}
+
+.title {
+  position: relative;
+  left: 45%;
+  font-size: 36px;
+}
+
+.partyAll {
+  position: relative;
+  width: 50%;
+  height: 400px;
+  background-color: whitesmoke;
+  opacity: 85%;
+  left: 2%;
+  border-radius: 13px;
+}
+.sports {
+  width: 55%;
+  float: left;
+  position: relative;
+  left: 1%;
+}
+.sportsText {
+  width: 95%;
+  position: relative;
+  left: 3%;
+  top: 15%;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.right {
+  position: relative;
+  left: 45%;
+}
+.footer {
+  background-color: rgb(1, 1, 61);
+  height: 200px;
+}
+.text {
+  color: rgb(255, 218, 151);
+  font-size: 22px;
+}
+.credit {
+  color: rgb(255, 218, 151);
+  position: relative;
+  display: block;
+  left: 40%;
+  top: 50%;
+}
+
+.linkFoot {
+  text-decoration: none;
+  color: seagreen;
+}
+.profile {
+  text-decoration: none;
+  color: seagreen;
+}
+
+.footLink {
+  position: relative;
+  left: 30%;
+  top: 15%;
+}

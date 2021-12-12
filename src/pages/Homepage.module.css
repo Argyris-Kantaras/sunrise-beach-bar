@@ -1,0 +1,201 @@
+.header {
+  color: rgb(1, 1, 61);
+
+  position: relative;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(255, 218, 151) 50%,
+    rgb(167, 89, 0) 100%
+  );
+  width: 100%;
+  opacity: 80%;
+}
+
+.title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  left: 1%;
+  top: 25px;
+  font-size: 32px;
+}
+
+.links {
+  display: block;
+  position: relative;
+  left: 78%;
+}
+
+.link {
+  color: rgb(1, 1, 61);
+  text-decoration: none;
+  padding: 8px;
+  font-size: 25px;
+}
+.link:hover {
+  color: red;
+}
+
+.openingPage {
+  /* position: fixed; */
+  background-image: url("../images/cocktail.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1250px;
+  opacity: 95%;
+}
+
+.slogan {
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 100px;
+  position: relative;
+  left: 25%;
+  top: 10%;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255, 218, 151) 50%,
+    rgb(167, 89, 0) 100%
+  );
+  width: 50%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  opacity: 50%;
+  transition: transform 0.2s;
+}
+.slogan:hover {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255, 218, 151) 50%,
+    red 100%
+  );
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.firstSlogan {
+  color: rgb(1, 1, 61);
+}
+.secondSlogan {
+  color: chartreuse;
+  display: block;
+  position: relative;
+  left: 50%;
+}
+
+.checkOut {
+  opacity: 30%;
+  background-color: black;
+  position: absolute;
+  font-size: 20px;
+  border-radius: 50%;
+  left: 44%;
+  top: 60%;
+  border: solid 3px black;
+  padding: 2%;
+  color: rgb(255, 0, 43);
+}
+
+.up {
+  border: solid rgb(98, 0, 0);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 16px;
+
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.arrow {
+  position: relative;
+  margin-left: -5px;
+  left: 49%;
+  top: 14%;
+  -webkit-animation: pulse 1s infinite;
+}
+
+.checkOut:hover {
+  opacity: 60%;
+  transform: scale(1.1);
+  cursor: pointer;
+  color: greenyellow;
+}
+/* -webkit-animation: pulse 1s infinite; */
+/* -moz-animation: pulse 1s infinite; */
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale();
+    opacity: 0.25;
+    top: 100px;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.footer {
+  text-align: center;
+  display: block;
+  position: relative;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(255, 218, 151) 50%,
+    rgb(167, 89, 0) 100%
+  );
+  height: 15%;
+  top: 66%;
+  background-color: aquamarine;
+}
+
+.credit {
+  position: relative;
+  display: block;
+}
+
+.footLink {
+  font-family: cursive;
+  font-size: 32px;
+}
+.textOne {
+  position: relative;
+  display: block;
+  right: 25%;
+  color: rgb(1, 1, 61);
+}
+.linkFoot {
+  text-decoration: none;
+  color: rgb(96, 156, 6);
+  transition: transform 0.2s;
+}
+.linkFoot:hover {
+  color: red;
+}
+
+.textTwo {
+  position: relative;
+  left: 50%;
+}
+
+.profile {
+  text-decoration: none;
+  color: rgb(82, 128, 14);
+}
+.profile:hover {
+  color: red;
+}
+.logo {
+  width: 5%;
+  float: left;
+}
+
+.logoContainer {
+  position: relative;
+  left: 2%;
+}
