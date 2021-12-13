@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { useInView, InView } from "react-intersection-observer";
 
 import classes from "./Events.module.css";
 import sports from "../images/water-sports.png";
@@ -8,17 +7,12 @@ import nightParty from "../images/night-party.jpg";
 import proposal from "../images/proposal.jpg";
 import wedding from "../images/wedding.jpg";
 import EventsItem from "./EventItem";
-import { useEffect } from "react";
 
 function Events() {
-  const { ref, inView, entry } = useInView({
-    threshold: 0,
-  });
-
   return (
     <div className={classes.events}>
       <h1 className={classes.title}>Our Events</h1>
-      <div ref={ref}>
+      <div>
         <EventsItem
           title="Party 4 All"
           image={sports}
