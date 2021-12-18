@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import classes from "./Homepage.module.css";
 import logo from "../images/favicon.png";
 const openEventsPage = function () {
-  window.location.href = "/events";
+  window.location.href = "#/events";
 };
 
 function Homepage() {
@@ -35,9 +35,9 @@ function Homepage() {
       <p className={classes.arrow}>
         <i className={classes.up}></i>
       </p>
-      <p className={classes.checkOut} onClick={openEventsPage}>
+      <span className={classes.checkOut} onClick={openEventsPage}>
         Check this out!!!
-      </p>
+      </span>
       <footer className={classes.footer}>
         <div className={classes.footLink}>
           <p className={classes.textOne}>
