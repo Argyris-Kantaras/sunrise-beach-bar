@@ -8,7 +8,7 @@
     rgb(167, 89, 0) 100%
   );
   width: 100%;
-  opacity: 80%;
+  opacity: 0.95;
 }
 
 .title {
@@ -43,7 +43,6 @@
   background-size: cover;
   width: 100%;
   height: 1250px;
-  opacity: 95%;
 }
 
 .slogan {
@@ -61,8 +60,8 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   font-size: 24px;
-  opacity: 50%;
   transition: transform 0.2s;
+  opacity: 0.8;
 }
 .slogan:hover {
   background-image: linear-gradient(
@@ -85,7 +84,7 @@
 }
 
 .checkOut {
-  opacity: 30%;
+  opacity: 0.5;
   background-color: black;
   position: absolute;
   font-size: 20px;
@@ -116,7 +115,7 @@
 }
 
 .checkOut:hover {
-  opacity: 60%;
+  opacity: 0.6;
   transform: scale(1.1);
   cursor: pointer;
   color: greenyellow;
